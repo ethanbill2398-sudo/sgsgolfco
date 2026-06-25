@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0D2B52;
+  --navy-light: #1a4080;
+  --navy-dark: #091e3a;
+  --navy-text: #152238;
+  --green-golf: #3F7D3B;
+  --white: #ffffff;
+  --gray-bg: #F6F8FA;
+  --gray-border: #E8ECEF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  color: var(--navy-text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F6F8FA; }
+::-webkit-scrollbar-thumb { background: #0D2B52; border-radius: 3px; }
+
+/* Selection */
+::selection { background: rgba(13, 43, 82, 0.15); color: #0D2B52; }
+
+@layer components {
+  .section-padding {
+    @apply py-20 lg:py-28;
+  }
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .heading-xl {
+    @apply font-heading font-semibold text-4xl sm:text-5xl lg:text-6xl leading-tight tracking-tight;
+  }
+  .heading-lg {
+    @apply font-heading font-semibold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight;
+  }
+  .heading-md {
+    @apply font-heading font-semibold text-2xl sm:text-3xl leading-snug;
+  }
+  .body-lg {
+    @apply font-body text-lg leading-relaxed;
+  }
+  .body-base {
+    @apply font-body text-base leading-relaxed;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-navy text-white font-body font-semibold px-7 py-3.5 rounded-lg
+           shadow-navy transition-all duration-200 ease-out
+           hover:bg-navy-light hover:shadow-card-hover hover:-translate-y-0.5
+           active:translate-y-0 active:shadow-none focus-visible:outline-none
+           focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-transparent text-white font-body font-semibold px-7 py-3.5 rounded-lg
+           border-2 border-white/60 transition-all duration-200 ease-out
+           hover:bg-white/10 hover:border-white hover:-translate-y-0.5
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 bg-transparent text-navy font-body font-semibold px-7 py-3.5 rounded-lg
+           border-2 border-navy/30 transition-all duration-200 ease-out
+           hover:border-navy hover:bg-navy/5 hover:-translate-y-0.5
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-gray-border transition-all duration-300
+           hover:shadow-card-hover hover:-translate-y-1;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1.5 text-xs font-semibold font-body uppercase tracking-wider
+           px-3 py-1 rounded-full;
+  }
+  .badge-navy {
+    @apply badge bg-navy/8 text-navy;
+  }
+  .badge-green {
+    @apply badge bg-green-golf/10 text-green-golf-dark;
+  }
+  .section-label {
+    @apply font-body text-sm font-semibold uppercase tracking-[0.15em] text-green-golf;
+  }
+}
+
+/* Animations for non-framer use */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+.animate-fade-up { animation: fade-up 0.7s ease-out forwards; }
+.animate-float   { animation: float 3s ease-in-out infinite; }
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(135deg, #0D2B52 0%, #3F7D3B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-white {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.80) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass card */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
