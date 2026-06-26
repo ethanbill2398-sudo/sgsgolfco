@@ -11,7 +11,7 @@ const articles = [
     excerpt: "Choosing the right wedge can save you 5+ strokes per round. We break down what to look for and which lofts to prioritize first.",
     category: "Equipment",
     readTime: "4 min read",
-    image: "/images/putting-closeup.jpg",
+    image: "/images/wedges.jpg",
     color: "bg-navy/8",
   },
   {
