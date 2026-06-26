@@ -1,7 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Flag, Instagram, Facebook, Youtube, MapPin, Phone, Mail } from "lucide-react";
+import { Flag, Instagram, Facebook, Youtube, MapPin, Mail } from "lucide-react";
 
 const footerLinks = {
   Company: [
@@ -57,7 +56,7 @@ export default function Footer() {
               better fundamentals, and smarter practice.
             </p>
             <p className="font-body text-sm font-medium text-green-golf-light italic mb-6">
-              "Master the short game. Master your score."
+              &ldquo;Master the short game. Master your score.&rdquo;
             </p>
             {/* Contact quick info */}
             <div className="flex flex-col gap-3">
