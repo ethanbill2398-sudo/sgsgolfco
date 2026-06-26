@@ -60,10 +60,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8"
+          className="mb-8"
         >
-          <span className="w-2 h-2 rounded-full bg-green-golf animate-pulse" />
-          <span className="font-body text-xs font-semibold uppercase tracking-[0.14em] text-white/90">
+          <span className="font-body text-xs font-semibold uppercase tracking-[0.14em] text-white/70">
             Short Game Specialists
           </span>
         </motion.div>
