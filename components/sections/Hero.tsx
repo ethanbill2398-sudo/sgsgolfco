@@ -30,8 +30,8 @@ export default function Hero() {
       {/* Parallax background */}
       <motion.div style={{ y: bgY }} className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1920&q=85"
-          alt="Premium golf course aerial view"
+          src="/images/golf-group-green.jpg"
+          alt="Golfers on the course"
           fill
           priority
           className="object-cover object-center"

@@ -26,7 +26,7 @@ const programs = [
     title: "Putting Foundations",
     tagline: "Where three-putts go to die",
     duration: "60 Minutes",
-    image: "https://images.unsplash.com/photo-1592919505780-303950717480?w=800&q=80",
+    image: "/images/putting-closeup.jpg",
     description:
       "Putting accounts for nearly 40% of your strokes. We fix the most common mistakes and give you a reliable stroke you can trust.",
     skills: ["Distance Control", "Gate Drill", "Green Reading", "Speed Control", "Alignment System"],
@@ -39,7 +39,7 @@ const programs = [
     title: "Chipping Foundations",
     tagline: "Clean chips. Consistent contact.",
     duration: "60 Minutes",
-    image: "https://images.unsplash.com/photo-1535132011086-b8818f016104?w=800&q=80",
+    image: "/images/golf-group-green.jpg",
     description:
       "Stop guessing which club to use. Learn a repeatable chipping system that works from any lie, any distance.",
     skills: ["High vs Low Chips", "Different Lies", "Ball Position", "Contact & Consistency", "Club Selection"],
@@ -52,7 +52,7 @@ const programs = [
     title: "20–80 Yard Scoring",
     tagline: "The scoring zone made simple",
     duration: "60 Minutes",
-    image: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&q=80",
+    image: "/images/golf-group-playing.jpg",
     description:
       "The shots between chipping and a full swing are where rounds are made or broken. Learn to control distance and trajectory with confidence.",
     skills: ["Pitch Shots", "Trajectory Control", "Distance Control", "Clock System", "Shot Selection"],

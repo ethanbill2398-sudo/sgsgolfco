@@ -11,7 +11,7 @@ const articles = [
     excerpt: "Choosing the right wedge can save you 5+ strokes per round. We break down what to look for and which lofts to prioritize first.",
     category: "Equipment",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1592919505780-303950717480?w=600&q=75",
+    image: "/images/putting-closeup.jpg",
     color: "bg-navy/8",
   },
   {
@@ -19,7 +19,7 @@ const articles = [
     excerpt: "Breaking 100 is less about your swing and more about your decision-making. Here's the exact strategy we teach in every beginner lesson.",
     category: "Strategy",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&q=75",
+    image: "/images/golf-group-playing.jpg",
     color: "bg-green-golf/10",
   },
   {
@@ -27,7 +27,7 @@ const articles = [
     excerpt: "Stop three-putting with these proven drills. The gate drill alone has helped dozens of our students drop 4+ putts per round.",
     category: "Putting",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&q=75",
+    image: "/images/putting-closeup.jpg",
     color: "bg-navy/8",
   },
   {
@@ -35,7 +35,7 @@ const articles = [
     excerpt: "The number one reason golfers chunk chips is a simple setup issue. Fix these two things and watch your contact immediately improve.",
     category: "Chipping",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1600376987698-8ab3e1c34b4e?w=600&q=75",
+    image: "/images/golf-group-green.jpg",
     color: "bg-green-golf/10",
   },
   {
@@ -43,7 +43,7 @@ const articles = [
     excerpt: "Smart course management can save 6-8 shots without changing your swing at all. Here's how to think your way around the golf course.",
     category: "Strategy",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1544551763-92ab472cad5d?w=600&q=75",
+    image: "/images/golf-group-playing.jpg",
     color: "bg-navy/8",
   },
   {
