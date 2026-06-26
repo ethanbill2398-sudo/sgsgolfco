@@ -44,7 +44,7 @@ const plans = [
   {
     id: "group",
     name: "Group Lessons",
-    price: "$50",
+    price: "$40",
     unit: "per person",
     description: "Perfect for friends, couples, or small groups who want to improve together.",
     features: [
