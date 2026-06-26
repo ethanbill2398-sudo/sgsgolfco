@@ -13,7 +13,7 @@ const programs = [
     title: "Beginner Fundamentals",
     tagline: "Your foundation starts here",
     duration: "60 Minutes",
-    image: "https://images.unsplash.com/photo-1600376987698-8ab3e1c34b4e?w=800&q=80",
+    image: "/images/putting-closeup.jpg",
     description:
       "Build the foundation every golfer needs. We cover everything from how you hold the club to your first clean strikes.",
     skills: ["Grip & Setup", "Aim & Alignment", "Stance & Posture", "Pendulum Motion", "First Contact"],
@@ -65,7 +65,7 @@ const programs = [
     title: "Master the Bunker",
     tagline: "Escape every time — guaranteed",
     duration: "60 Minutes",
-    image: "https://images.unsplash.com/photo-1543982616-5bd1b46ca52c?w=800&q=80",
+    image: "/images/bunker-shot.jpg",
     description:
       "Bunkers don't have to be scary. Learn the mechanics of consistent sand play and build the confidence to escape every single time.",
     skills: ["Open Stance Setup", "Using the Bounce", "Dollar Bill Drill", "Distance Control", "Confidence Building"],

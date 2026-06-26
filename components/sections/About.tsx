@@ -29,8 +29,8 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-card-hover">
               <Image
-                src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=900&q=80"
-                alt="Golfer practicing short game"
+                src="/images/golf-group-green.jpg"
+                alt="Golfers on the green"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

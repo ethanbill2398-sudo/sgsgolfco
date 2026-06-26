@@ -14,8 +14,8 @@ export default function CTABanner() {
       <div className="relative h-[480px] flex items-center">
         {/* Background image */}
         <Image
-          src="https://images.unsplash.com/photo-1544551763-92ab472cad5d?w=1920&q=80"
-          alt="Golf course at sunset"
+          src="/images/golf-group-playing.jpg"
+          alt="Golfers playing on the course"
           fill
           className="object-cover object-center"
           sizes="100vw"

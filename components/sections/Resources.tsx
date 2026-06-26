@@ -51,7 +51,7 @@ const articles = [
     excerpt: "You don't need a putting green in your backyard. These simple practice routines can be done in your living room and they actually work.",
     category: "Practice",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1543982616-5bd1b46ca52c?w=600&q=75",
+    image: "/images/putting-closeup.jpg",
     color: "bg-green-golf/10",
   },
 ];
