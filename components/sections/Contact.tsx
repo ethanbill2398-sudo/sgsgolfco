@@ -114,7 +114,7 @@ export default function Contact() {
             <div className="p-5 rounded-2xl bg-navy relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 bg-green-golf/20 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl" />
               <p className="font-body text-sm text-white/75 leading-relaxed relative z-10">
-                <span className="text-white font-semibold">"Short game made simple."</span>
+                <span className="text-white font-semibold">&ldquo;Short game made simple.&rdquo;</span>
                 {" "}Every great score starts around the green — let&apos;s build yours together.
               </p>
             </div>

@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ShoppingBag, Bell, Gift, Package } from "lucide-react";
+import { Bell } from "lucide-react";
 
 const comingSoon = [
   { icon: "🟢", name: "Putting Mats" },

@@ -40,7 +40,7 @@ export default function About() {
               {/* Floating badge */}
               <div className="absolute bottom-6 left-6 right-6 glass rounded-2xl px-5 py-4">
                 <p className="font-heading font-semibold text-white text-lg leading-tight">
-                  "Every great score starts around the green."
+                  &ldquo;Every great score starts around the green.&rdquo;
                 </p>
                 <p className="font-body text-xs text-white/60 mt-1">— SGS Golf Co. philosophy</p>
               </div>
@@ -89,7 +89,7 @@ export default function About() {
                 We don&apos;t teach complicated golf swings. <strong className="text-navy font-semibold">We teach scoring.</strong>
               </p>
               <p className="body-base text-navy/60 italic border-l-2 border-green-golf pl-4">
-                "Golf is hard. Learning it shouldn&apos;t be."
+                &ldquo;Golf is hard. Learning it shouldn&apos;t be.&rdquo;
               </p>
             </div>
 
